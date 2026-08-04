@@ -218,7 +218,7 @@ footer{ border-top:1px solid var(--line); background:var(--bg-2); padding:40px 0
       <div class="hero-ctas">
         <a class="btn btn-primary" href="#jogos">Ver jogos de hoje</a>
         <a class="btn btn-ghost" href="https://www.youtube.com/@SEU_CANAL" target="_blank" rel="noopener">Inscrever-se no canal</a>
-        <a id="insta-hero-link" class="btn btn-insta" href="https://www.instagram.com/SEU_INSTAGRAM/" target="_blank" rel="noopener">Seguir no Instagram</a>
+        <a id="insta-hero-link" class="btn btn-insta" href="https://www.instagram.com/karlostips01/" target="_blank" rel="noopener">Seguir no Instagram</a>
       </div>
     </div>
   </section>
@@ -317,7 +317,7 @@ footer{ border-top:1px solid var(--line); background:var(--bg-2); padding:40px 0
    CONFIG — seu Instagram e o placar da semana. Mexa aqui quando quiser.
    ========================================================================== */
 const CONFIG = {
-  instagram: "SEU_INSTAGRAM",      // só o @, sem espaço, sem https
+  instagram: "karlostips01",      // só o @, sem espaço, sem https
   acertosSemana: 8,                 // quantos palpites bateram essa semana
   totalSemana: 10                   // quantos palpites no total essa semana
 };
@@ -335,7 +335,7 @@ function aplicarConfig(){
 }
 
 /* ==========================================================================
-   JOGOS_DE_HOJE — é AQUI que você mexe todo dia.
+   JOGOS_DE_TERÇA — é AQUI que você mexe todo dia.
    Copie um bloco { ... }, cole depois do último, e mude os dados.
    Ordem no array = ordem no site (ou use as setinhas ▲▼ na página).
 
@@ -344,7 +344,7 @@ function aplicarConfig(){
    ========================================================================== */
 const JOGOS_DE_HOJE = [
   {
-    competicao: "BRASILEIRÃO · 21:30",
+    competicao: "COPA DO BRASIL · 21:30",
     destaque: true,
     // "escudo" é opcional: cole o link de uma imagem (ex: sua própria hospedagem
     // ou o link do escudo direto do site do time). Se deixar em branco (""),
@@ -357,7 +357,7 @@ const JOGOS_DE_HOJE = [
     linkBetano: "https://www.betano.bet.br/SEU_LINK_DE_AFILIADO"
   },
   {
-    competicao: "LIBERTADORES · 19:00",
+    competicao: "COPA DO BRASIL· 19:30",
     destaque: false,
     timeA: { nome: "São Paulo", sigla: "SPFC", cor: "#8a1c1c", escudo: "" },
     timeB: { nome: "River Plate", sigla: "RIV", cor: "#d1002a", escudo: "" },
